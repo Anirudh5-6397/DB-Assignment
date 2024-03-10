@@ -15,7 +15,8 @@ By referencing the id column of the “product_category” table through the cat
 
  Question 2-
  Answer- To ensure that each product in the “Product” table has a valid category assigned to it, Set up a foreign key constraint between the “category_id” column in the “Product” table and the “id” column in the “product_category” table. This constraint will enforce referential integrity, ensuring that every value in the “category_id” column of the “Product” table corresponds to an existing “id” in the “product_category” table.
-Implementation
+Implementation:
+
 ALTER TABLE Product
 ADD CONSTRAINT product_category
 FOREIGN KEY (category_id)
