@@ -1,5 +1,5 @@
 Question 1 -
-Answer-   Based on the  table structure, the relationship between the “Product” and “Product Category” entities can be inferred from the columns in the tables.
+Answer-  Based on the  table structure, the relationship between the “Product” and “Product Category” entities can be inferred from the columns in the tables.
         In the “product” table, there is  a column named category_id, which likely serves as a foreign key referencing the id column in the “product_category” table. This column establishes a link between each 
        product and its corresponding category.
        
