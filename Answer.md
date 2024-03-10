@@ -4,7 +4,8 @@ Answer- Based on the  table structure, the relationship between the “Product�
        product and its corresponding category.
        
     Each product in the “product” table is associated with a specific category through the category_id column. 
-    The category_id column in the “product” table holds the ID of the category to which the product belongs. In the “product_category” table, the id column uniquely identifies each category.
+    The category_id column in the “product” table holds the ID of the category to which the product belongs.
+    In the “product_category” table, the id column uniquely identifies each category.
     
 By referencing the id column of the “product_category” table through the category_id column in the “product” table, you establish a relationship between products and their respective categories.
 
